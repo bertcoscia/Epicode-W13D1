@@ -21,23 +21,23 @@ public class Ex3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("PERIMETRO RETTANGOLO: INSERISCI PRIMO LATO");
-        double input1 = scanner.nextDouble();
+        double input1 = Double.parseDouble(scanner.nextLine());
         System.out.println("PERIMETRO RETTANGOLO: INSERISCI SECONDO LATO");
-        double input2 = scanner.nextDouble();
+        double input2 = Double.parseDouble(scanner.nextLine());
         double result1 = perimetroRettangolo(input1, input2);
         System.out.println(result1);
 
         System.out.println("PARI DISPARI: INSERISCI NUMERO");
-        int input3 = scanner.nextInt();
+        int input3 = Integer.parseInt(scanner.nextLine());
         int result2 = pariDispari(input3);
         System.out.println(result2);
 
         System.out.println("AREA TRIANGOLO: INSERISCI PRIMO LATO");
-        double input4 = scanner.nextDouble();
+        double input4 = Double.parseDouble(scanner.nextLine());
         System.out.println("AREA TRIANGOLO: INSERISCI SECONDO LATO");
-        double input5 = scanner.nextDouble();
+        double input5 = Double.parseDouble(scanner.nextLine());
         System.out.println("AREA TRIANGOLO: INSERISCI TERZO LATO");
-        double input6 = scanner.nextDouble();
+        double input6 = Double.parseDouble(scanner.nextLine());
         double result3 = areaTriangolo(input4, input5, input6);
         System.out.println(result3);
     }
