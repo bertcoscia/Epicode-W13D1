@@ -10,8 +10,8 @@ public class Ex1 {
         return str + Integer.toString(num);
     }
 
-    public static String[] inserisciInArray(String[] stringsArr, String str) {
-    String[] resultArr = {stringsArr[0], stringsArr[1], str, stringsArr[2], stringsArr[3], stringsArr[4]};
+    public static String[] inserisciInArray(String[] arr, String str) {
+    String[] resultArr = {arr[0], arr[1], str, arr[2], arr[3], arr[4]};
     return resultArr;
     }
 
