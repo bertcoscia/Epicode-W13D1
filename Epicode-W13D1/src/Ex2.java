@@ -13,5 +13,7 @@ public class Ex2 {
 
     System.out.print(str1 + str2 + str3 + " ");
     System.out.print(str3 + str2 + str1);
+
+    scanner.close();
     }
 }
